@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--属性：
+时间：1000ms
+起始角度：0
+x轴位置：50%父类布局
+y轴位置：50%父类布局
+是否重复动画：是
+结束角度：359-->
+<rotate xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duration="1000"
+    android:fromDegrees="0"
+    android:pivotX="50%p"
+    android:pivotY="50%p"
+    android:repeatCount="-1"
+    android:toDegrees="359" >
+
+</rotate>

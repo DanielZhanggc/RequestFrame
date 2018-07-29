@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ChoiceFrame</string>
+    <string name="news">新闻</string>
+    <string name="weather">天气</string>
+    <string name="location">位置</string>
+    <string name="words">留言</string>
+</resources>

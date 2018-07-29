@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/frame_main"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/white">
+
+    </FrameLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/gray" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FCFBFB"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingBottom="6dp"
+        android:paddingTop="6dp">
+
+        <RadioButton
+            android:id="@+id/radioBtn_new"
+            style="@style/BottomStyle"
+            android:checked="true"
+            android:drawableTop="@drawable/news_select"
+            android:text="@string/news"
+            android:textColor="@drawable/text_select" />
+
+        <RadioButton
+            android:id="@+id/radioBtn_weather"
+            style="@style/BottomStyle"
+            android:drawableTop="@drawable/weather_select"
+            android:text="@string/weather"
+            android:textColor="@drawable/text_select" />
+
+        <RadioButton
+            android:id="@+id/radioBtn_map"
+            style="@style/BottomStyle"
+            android:drawableTop="@drawable/map_select"
+            android:text="@string/location"
+            android:textColor="@drawable/text_select" />
+
+        <RadioButton
+            android:id="@+id/radioBtn_words"
+            style="@style/BottomStyle"
+            android:drawableTop="@drawable/words_select"
+            android:text="@string/words"
+            android:textColor="@drawable/text_select" />
+    </RadioGroup>
+
+</LinearLayout>

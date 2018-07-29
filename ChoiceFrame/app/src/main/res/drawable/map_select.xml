@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--suppress ALL -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@mipmap/map_pressed" android:state_checked="true"></item>
+    <item android:drawable="@mipmap/map_nomal" android:state_checked="false"></item>
+</selector>
