@@ -1,6 +1,6 @@
 
 # RequestFrame
-Retrofit+RxJava+OkHttp3集成的get/post/文件下载和文件上传请求框架
+Retrofit+RxJava+OkHttp3请求框架
 
 # 注意
 1.在测试GET请求的时候将NetClient类下面的变量BASE_URL变换成get请求对应的url
