@@ -13,4 +13,4 @@
 可以根据需求将代码集成到自己项目中，后期将代码模块化，使用更加便捷
 
 # 展示
-![image]("https://github.com/DanielZhanggc/RequestFrame/blob/master/Main.png")
+![image](https://github.com/DanielZhanggc/RequestFrame/blob/master/Main.png)
